@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#1685E5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="8" width="40" height="30" rx="4" fill="#EBF4FE" stroke="#102C50"/>
+  <rect x="8" y="13" width="22" height="20" rx="2" fill="#FFFFFF" stroke="#102C50"/>
+  <!-- Controls -->
+  <line x1="35" y1="14" x2="39" y2="14" stroke="#102C50"/>
+  <line x1="35" y1="18" x2="39" y2="18" stroke="#102C50"/>
+  <circle cx="37" cy="26" r="3" stroke="#1685E5"/>
+  <!-- Waves inside -->
+  <path d="M14 23C16 21 18 25 20 23" stroke="#1685E5"/>
+  <path d="M16 26C18 24 20 28 22 26" stroke="#1685E5"/>
+</svg>

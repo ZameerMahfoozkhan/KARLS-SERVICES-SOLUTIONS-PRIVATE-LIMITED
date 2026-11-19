@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60" fill="none">
+  <!-- Brand Icon -->
+  <g transform="translate(4, 5)">
+    <rect x="0" y="0" width="50" height="50" rx="14" fill="#1685E5" />
+    <path d="M25 11L11 23H16V37H34V23H39L25 11Z" fill="#FFFFFF" fill-opacity="0.2" />
+    <path d="M25 14L14 23.5H19V36H31V23.5H36L25 14Z" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="25" cy="27" r="4.5" fill="#102C50" stroke="#FFFFFF" stroke-width="1.8"/>
+    <path d="M36 10L37.5 14L41.5 15.5L37.5 17L36 21L34.5 17L30.5 15.5L34.5 14L36 10Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(66, 12)">
+    <text x="0" y="24" font-family="'Poppins', 'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="0.5" fill="#FFFFFF">
+      KARLS<tspan fill="#54B2FF"> SERVICES</tspan>
+    </text>
+    <text x="0" y="38" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="8.5" font-weight="600" letter-spacing="1.8" fill="#94A3B8" text-transform="uppercase">
+      HOME APPLIANCE REPAIR EXPERTS
+    </text>
+  </g>
+</svg>

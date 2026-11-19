@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#1685E5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="8" y="6" width="32" height="38" rx="3" fill="#EBF4FE" stroke="#102C50"/>
+  <line x1="8" y1="14" x2="40" y2="14" stroke="#102C50"/>
+  <!-- Handle -->
+  <line x1="18" y1="10" x2="30" y2="10" stroke="#1685E5" stroke-width="3"/>
+  <!-- Water sprays inside -->
+  <circle cx="18" cy="24" r="1.5" fill="#1685E5"/>
+  <circle cx="24" cy="21" r="1.5" fill="#1685E5"/>
+  <circle cx="30" cy="25" r="1.5" fill="#1685E5"/>
+  <path d="M14 36H34" stroke="#102C50"/>
+  <line x1="18" y1="31" x2="18" y2="36" stroke="#102C50"/>
+  <line x1="24" y1="31" x2="24" y2="36" stroke="#102C50"/>
+  <line x1="30" y1="31" x2="30" y2="36" stroke="#102C50"/>
+</svg>

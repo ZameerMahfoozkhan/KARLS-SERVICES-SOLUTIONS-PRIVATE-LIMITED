@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#102C50"/>
+  <!-- Shield/House -->
+  <path d="M32 10L14 26H20V48H44V26H50L32 10Z" fill="#1685E5" fill-opacity="0.25"/>
+  <path d="M32 14L18 26.5H23V46H41V26.5H46L32 14Z" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Center Accent Hub -->
+  <circle cx="32" cy="34" r="6" fill="#1685E5" stroke="#FFFFFF" stroke-width="2.5"/>
+  <!-- Sparkle Accent -->
+  <polygon points="46,12 48,17 53,19 48,21 46,26 44,21 39,19 44,17" fill="#1685E5"/>
+</svg>

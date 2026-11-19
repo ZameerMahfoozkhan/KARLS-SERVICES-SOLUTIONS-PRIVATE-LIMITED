@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#1685E5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="10" width="40" height="20" rx="3" fill="#EBF4FE" stroke="#102C50"/>
+  <line x1="8" y1="24" x2="40" y2="24"/>
+  <line x1="12" y1="17" x2="16" y2="17" stroke="#102C50"/>
+  <circle cx="38" cy="17" r="1.5" fill="#25D366" stroke="none"/>
+  <!-- Air airflow waves -->
+  <path d="M12 35C14 38 18 38 20 35"/>
+  <path d="M22 35C24 38 28 38 30 35"/>
+  <path d="M32 35C34 38 38 38 40 35"/>
+</svg>
