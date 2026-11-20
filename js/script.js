@@ -88,7 +88,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // --- 4. Contact Page: WhatsApp Enquiry Form Handler ---
+  // --- 4. Interactive Services Category Filter ---
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const serviceCards = document.querySelectorAll('.service-card[data-category]');
+
+  if (filterBtns.length > 0 && serviceCards.length > 0) {
+    filterBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filterValue = btn.getAttribute('data-filter') || 'all';
+
+        serviceCards.forEach((card) => {
+          const cardCategory = card.getAttribute('data-category');
+          if (filterValue === 'all' || cardCategory === filterValue) {
+            card.classList.remove('is-hidden');
+            setTimeout(() => {
+              card.style.opacity = '1';
+              card.style.transform = 'translateY(0)';
+            }, 50);
+          } else {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(15px)';
+            card.classList.add('is-hidden');
+          }
+        });
+      });
+    });
+  }
+
+  // --- 5. Contact Page: WhatsApp Enquiry Form Handler ---
   const enquiryForm = document.getElementById('whatsappEnquiryForm');
   if (enquiryForm) {
     // Check URL parameters to pre-select appliance if navigated from service card
@@ -192,17 +222,17 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Exact formatted WhatsApp message as required:
+      // Exact formatted WhatsApp message for Climnexa Sales & Services:
       const formattedMessage =
-`Hello KARLS SERVICES,
+`Hello CLIMNEXA SALES & SERVICES,
 
-I would like to enquire about appliance repair.
+I would like to enquire about appliance sales / service / maintenance.
 
 Name: ${nameVal}
 Mobile: ${mobileVal}
-Appliance: ${applianceVal}
+Service Required: ${applianceVal}
 Location: ${locationVal}
-Problem: ${problemVal}
+Details / Problem: ${problemVal}
 
 Please contact me regarding the service.
 
