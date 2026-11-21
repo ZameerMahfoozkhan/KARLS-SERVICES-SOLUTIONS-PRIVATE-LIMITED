@@ -2231,9 +2231,9 @@ textarea.form-control {
   height: 52px;
   color: #ffffff !important;
   font-family: var(--font-heading);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   text-decoration: none;
   text-align: center;
   background: transparent;
