@@ -88,6 +88,7 @@ body {
   overflow-x: clip;
   position: relative;
   min-height: 100vh;
+  padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -2064,11 +2065,11 @@ textarea.form-control {
 }
 
 /* --------------------------------------------------------------------------
-   Floating Quick Contact Buttons (Call & WhatsApp) - Permanently Fixed on Scroll
+   Floating WhatsApp Button - Fixed Above Sticky Bottom Bar
    -------------------------------------------------------------------------- */
 .floating-contact-group {
   position: fixed !important;
-  bottom: 28px !important;
+  bottom: 72px !important;
   right: 28px !important;
   z-index: 999999 !important;
   display: flex !important;
@@ -2182,7 +2183,7 @@ textarea.form-control {
 /* Fallback for standalone floating-whatsapp */
 .floating-whatsapp {
   position: fixed !important;
-  bottom: 28px !important;
+  bottom: 72px !important;
   right: 28px !important;
   z-index: 999999 !important;
   display: flex !important;
@@ -2194,6 +2195,90 @@ textarea.form-control {
   transform: translateZ(0) !important;
   -webkit-transform: translateZ(0) !important;
   will-change: transform;
+}
+
+/* --------------------------------------------------------------------------
+   Sticky Calling Bar (Book Now) - Pinned to Screen Bottom
+   -------------------------------------------------------------------------- */
+.sticky-call-bar {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  z-index: 999998 !important;
+  background-color: #06a210;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.18);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  pointer-events: auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateZ(0) !important;
+  -webkit-transform: translateZ(0) !important;
+  transition: background-color var(--transition-normal);
+}
+
+.sticky-call-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  height: 52px;
+  color: #ffffff !important;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color var(--transition-fast);
+}
+
+.sticky-call-btn:hover,
+.sticky-call-btn:focus-visible {
+  background-color: #048a0d;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.sticky-call-btn:active {
+  background-color: #03750b;
+}
+
+.sticky-call-btn i {
+  font-size: 1.15rem;
+  color: #ffffff;
+  display: inline-block;
+  animation: phone-call-wiggle 3s ease-in-out infinite;
+}
+
+@keyframes phone-call-wiggle {
+  0%, 70%, 100% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(14deg);
+  }
+  80% {
+    transform: rotate(-12deg);
+  }
+  85% {
+    transform: rotate(10deg);
+  }
+  90% {
+    transform: rotate(-6deg);
+  }
+  95% {
+    transform: rotate(0deg);
+  }
 }
 
 .floating-whatsapp-btn {
@@ -2807,8 +2892,8 @@ textarea.form-control {
 
   .floating-contact-group {
     position: fixed !important;
-    bottom: calc(20px + env(safe-area-inset-bottom, 0px)) !important;
-    right: calc(18px + env(safe-area-inset-right, 0px)) !important;
+    bottom: calc(66px + env(safe-area-inset-bottom, 0px)) !important;
+    right: calc(16px + env(safe-area-inset-right, 0px)) !important;
     gap: 12px;
     z-index: 999999 !important;
     display: flex !important;
@@ -2833,8 +2918,8 @@ textarea.form-control {
 
   .floating-whatsapp {
     position: fixed !important;
-    bottom: calc(20px + env(safe-area-inset-bottom, 0px)) !important;
-    right: calc(18px + env(safe-area-inset-right, 0px)) !important;
+    bottom: calc(66px + env(safe-area-inset-bottom, 0px)) !important;
+    right: calc(16px + env(safe-area-inset-right, 0px)) !important;
     z-index: 999999 !important;
     display: flex !important;
     opacity: 1 !important;
