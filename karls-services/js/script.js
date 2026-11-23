@@ -239,7 +239,7 @@ Please contact me regarding the service.
 Thank you.`;
 
       // Official WhatsApp URL
-      const whatsappBaseUrl = 'https://wa.me/919580659559';
+      const whatsappBaseUrl = 'https://wa.me/917348253950';
       const fullUrl = `${whatsappBaseUrl}?text=${encodeURIComponent(formattedMessage)}`;
 
       // Display transparent status notice (does not claim enquiry is already received)

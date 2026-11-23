@@ -1,8 +1,8 @@
-# CLIMNEXA SALES & SERVICES – Home Appliance & Commercial HVAC Website
+# CLIMNEXA SALES & SERVICES – Home Appliance Sales & Service Website
 
 Official website for **CLIMNEXA SALES & SERVICES**, operated by **KARLS SERVICES SOLUTIONS PRIVATE LIMITED**.
 
-A modern, responsive, and lightweight website for home appliance sales, technical repairs, commercial HVAC engineering, solar solutions, and Annual Maintenance Contracts (AMC) in Lucknow, Uttar Pradesh.
+A modern, responsive, and lightweight website for home appliance sales, technical repairs, central cooling solutions, solar solutions, and Annual Maintenance Contracts (AMC) in Lucknow, Uttar Pradesh.
 
 ---
 
@@ -13,8 +13,8 @@ A modern, responsive, and lightweight website for home appliance sales, technica
 * **Constitution:** Private Limited Company
 * **GSTIN:** 09AAKCK5764C1ZB
 * **Registered Address:** Khasra No. 345, Gaurbeeth, Faizullahganj, Lucknow, Uttar Pradesh – 226020
-* **Phone Helpline:** [+91 9580659559](tel:+919580659559)
-* **WhatsApp Support:** [+91 9580659559](https://wa.me/919580659559)
+* **Phone Helpline:** [+91 7348253950](tel:+917348253950)
+* **WhatsApp Support:** [+91 7348253950](https://wa.me/917348253950)
 
 ---
 
@@ -29,7 +29,7 @@ A modern, responsive, and lightweight website for home appliance sales, technica
 7. **CHIMNEY SALES & SERVICE** – Auto-clean kitchen chimney sales, duct installation, deep grease degreasing, and suction motor repairs.
 8. **GEYSER SALES & SERVICE** – Electric storage, instant, and gas geyser sales, copper heating element replacement, and tank descaling.
 9. **SOLAR SALES & SERVICE** – On-grid and off-grid rooftop solar power plants, solar water heaters, and inverter maintenance.
-10. **HVAC SOLUTIONS** – Commercial HVAC system engineering, cooling load calculations, ventilation, and ductwork balancing.
+10. **HVAC SOLUTIONS** – Central HVAC system engineering, cooling load calculations, ventilation, and ductwork balancing.
 11. **CHILLER AC SERVICE** – Air-cooled and water-cooled chiller sales consultation, condenser tube descaling, and compressor overhauls.
 12. **VRF AC SERVICE** – Multi-zone Variable Refrigerant Flow (VRF/VRV) systems, multi-split piping, and inverter driver care.
 13. **DUCTABLE AC SERVICE** – Concealed ductable split AC sales, airflow balancing, grille cleaning, and blower servicing.
@@ -40,8 +40,8 @@ A modern, responsive, and lightweight website for home appliance sales, technica
 ## 🚀 Key Features
 
 * **Instant WhatsApp Integration:** One-click WhatsApp enquiry generator with real-time field validation.
-* **Direct Click-to-Call:** Integrated click-to-call functionality (`tel:+919580659559`).
-* **Interactive Services Filter:** Category tab switcher (All, Home Appliances, Commercial HVAC, Solar & AMC) with smooth CSS transitions.
+* **Direct Click-to-Call:** Integrated click-to-call functionality (`tel:+917348253950`).
+* **Interactive Services Filter:** Category tab switcher (All, Home Appliances, Central AC & HVAC, Solar & AMC) with smooth CSS transitions.
 * **Permanently Visible Floating Actions:** Bottom-right fixed WhatsApp and Call buttons on GPU hardware layers.
 * **Interactive FAQ Accordion:** Pure Vanilla JS accordion for customer guidance.
 * **SEO & Local Business Ready:** Schema.org JSON-LD structured data, Open Graph meta tags, sitemap.xml, and robots.txt.
@@ -55,7 +55,7 @@ A modern, responsive, and lightweight website for home appliance sales, technica
 ```text
 ├── index.html                   # Homepage (Hero, 14 Filterable Services, Process, About, FAQ, Footer)
 ├── about.html                   # About Us & Verified Statutory Business Details (GSTIN)
-├── services.html                # Detailed 14 Appliance & Commercial HVAC Services
+├── services.html                # Detailed 14 Appliance & Cooling Services
 ├── contact.html                 # Contact Information & Interactive WhatsApp Form
 ├── privacy-policy.html          # Privacy Policy covering WhatsApp communication
 ├── terms-and-conditions.html    # Terms & Conditions for service enquiries & inspection
