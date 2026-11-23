@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://karlsservices.com/sitemap.xml
+Sitemap: https://climnexa.in/sitemap.xml
